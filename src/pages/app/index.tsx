@@ -144,7 +144,7 @@ export default function AppAleatorio({data}) {
                 </CardContent>
                 <CardActions sx={{justifyContent: "center"}}>
                 <div>
-      <Button onClick={handleOpen} sx={{background: "#1b144b", color: "#FFF", borderRadius: "64px", padding: "16px", fontWeight: "600"}}>Cadastrar</Button>
+      <Button onClick={handleOpen} sx={{background: "#1b144b", color: "#FFF", borderRadius: "64px", padding: "16px", fontWeight: "600",'&:hover': {color: '#1b144b'}}}>Cadastrar</Button>
       <Modal
         open={open}
         onClose={handleClose}
